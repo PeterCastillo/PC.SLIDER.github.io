@@ -21,7 +21,8 @@ btn.forEach(element => {
         img.src = imgs[counter];
         fragment.appendChild(img);
         container.appendChild(img);
-    } else if(element === btn[1]){
+    };
+    if(element === btn[1]){
         counter++;
         if(counter > imgs.length - 1){
             counter = 0 ;
