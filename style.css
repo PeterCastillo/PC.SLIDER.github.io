@@ -36,3 +36,11 @@
 .imgrotate {
     transform: rotate(-180deg);
 }
+
+.btns span .imgrotate:hover {
+    transform: scale(1.5) rotate(-180deg);
+}
+
+.btns span img:hover {
+    transform: scale(1.5);
+}
