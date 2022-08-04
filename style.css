@@ -19,7 +19,6 @@
     width: 8rem;
     height: 11rem;
 }
-
 .btns {
     width: 8rem;
     height: 1.35rem;
@@ -42,5 +41,75 @@
 }
 
 .btns span img:hover {
+    transform: scale(1.5);
+}
+
+/**/
+
+.slidermulti__container {
+    width: 100vw;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #b92b27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+.slidermulti-imgs {
+    display: flex;
+    gap: 1rem;
+}
+
+.slidermulti {
+    position: relative;
+}
+
+
+.slidermulti-imgs div > img {
+    width: 8rem;
+    height: 11rem;
+}
+
+.btnss {
+    align-self: center;
+    position: absolute;
+    width: 100%;
+    top: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rotate {
+    transform: rotate(-180deg);
+}
+
+.btnss span:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.butons {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.butons div {
+    width: 0.5rem;
+    height: 0.5rem;
+    border: solid 2px black;
+    background-color: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.active {
+    transform: scale(1.5);
+    background: linear-gradient(rgba(5, 7, 12, 0.3),rgba(5, 7, 12, 0.3));
+}
+
+.butons div:hover {
     transform: scale(1.5);
 }
